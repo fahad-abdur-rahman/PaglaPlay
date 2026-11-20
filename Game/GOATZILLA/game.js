@@ -2,7 +2,7 @@
 (()=>{
 'use strict';
 if(!window.THREE){document.body.innerHTML='<p style="color:#fff;padding:24px;font:18px sans-serif">Could not load Three.js. Check your connection and reload.</p>';return}
-const $=id=>document.getElementById(id),clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const DUM={style:{},classList:{add(){},remove(){}},addEventListener(){},getBoundingClientRect(){return{left:0,top:0,width:132}},textContent:'',hidden:false},$=id=>document.getElementById(id)||DUM,clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 const touch=(window.matchMedia&&matchMedia('(pointer:coarse)').matches)||'ontouchstart' in window;
 const LS={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 
