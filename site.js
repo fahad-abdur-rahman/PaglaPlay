@@ -1,7 +1,7 @@
 const CATS={action:['⚔️','Action'],adventure:['🧭','Adventure'],funny:['🤪','Funny'],racing:['🏁','Racing'],puzzle:['🧩','Puzzle'],arcade:['🕹️','Arcade']};
 // Add a new game here: set live:true and put its files in games/<id>/index.html
 const GAMES=[
-{id:'goatzilla',title:'Goatzilla',tag:'The Craziest Goat in Town!',emoji:'🐐',a:'#ff3d81',b:'#5b2bd9',cats:['funny','action','adventure'],kind:'3D',live:true,play:'Game/GOATZILLA/index.html',
+{id:'goatzilla',title:'Goatzilla',tag:'The Craziest Goat in Town!',emoji:'🐐',a:'#ff3d81',b:'#5b2bd9',cats:['funny','action','adventure'],kind:'3D',live:true,play:'games/goatzilla/index.html',
  desc:'Be a giant, crazy goat in a colourful village. Headbutt crates, cars and villagers, eat samosas, finish missions and run from Chacha’s slipper.',
  controls:['WASD / arrows: move','Shift: sprint','Space: jump (twice)','F or click: headbutt','E: eat / interact','Mouse: camera','Phone: stick + JUMP / BONK / E']},
 {id:'pagla-rickshaw',title:'Pagla Rickshaw',tag:'Dhaka traffic, but wild',emoji:'🛺',a:'#ffb300',b:'#e53935',cats:['racing','funny'],kind:'Soon',live:false,desc:'A mad rickshaw race through the busiest streets.',controls:[]},

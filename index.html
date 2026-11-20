@@ -1,58 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-<title>Goatzilla – The Craziest Goat in Town! | PaglaPlay</title>
-<meta name="description" content="Goatzilla is a free 3D browser game on PaglaPlay. Headbutt, sprint and cause cartoon chaos as the craziest goat in town.">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<canvas id="c"></canvas>
-
-<div id="hud" hidden>
-  <div id="top">
-    <div class="pill">⭐ <b id="sc">0</b></div>
-    <div class="pill">🪙 <b id="co">0</b></div>
-    <div class="pill" id="hp">❤️❤️❤️</div>
-    <button class="pill" id="mu" aria-label="Sound">🔊</button>
-  </div>
-  <div id="mis"><b id="mt"></b><div id="mb"><i id="mf"></i></div></div>
-  <div id="fx"></div>
-  <div id="toast"></div>
-  <div id="say"></div>
-  <div id="st"><i id="sf"></i></div>
-</div>
-
-<div id="touch" hidden>
-  <div id="jz"></div>
-  <div id="joy"><i id="knob"></i></div>
-  <button class="tb" id="be">E</button>
-  <button class="tb" id="bj">JUMP</button>
-  <button class="tb big" id="bh">BONK</button>
-</div>
-
-<div id="menu" class="ov">
-  <div class="card">
-    <div class="brand">PaglaPlay</div>
-    <h1>GOATZILLA</h1>
-    <p class="tag">The Craziest Goat in Town!</p>
-    <div class="skin"><button id="sk1" aria-label="Colour">🎨</button><button id="sk2" aria-label="Hat">🎩</button><button id="sk3" aria-label="Shades">😎</button></div>
-    <p class="how"><b>WASD</b> move · <b>Shift</b> sprint · <b>Space</b> jump (twice!)<br><b>F</b> or <b>click</b> headbutt · <b>E</b> eat &amp; interact · <b>Mouse</b> camera<br>Phone: stick + JUMP / BONK / E buttons</p>
-    <p class="how">Endless town! Bonk crates, cars and villagers, eat samosas, grab 🌶️ speed, 🧲 magnet and 💥 mega-bonk power-ups. Run from Chacha's slipper. Phone: play sideways.</p>
-    <button class="go" id="play">Play now</button>
-  </div>
-</div>
-
-<div id="over" class="ov" hidden>
-  <div class="card">
-    <h2>Chacha got you!</h2>
-    <p class="tag" id="gs"></p>
-    <button class="go" id="again">Play again</button>
-  </div>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="game.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PaglaPlay – Free Online Games</title>
+<meta name="description" content="PaglaPlay: Play Different. Laugh Unlimited. Free original browser games for desktop and mobile, no install needed.">
+<link rel="stylesheet" href="site.css"></head><body data-page="home">
+<div class="hero"><div class="wrap"><h1>PaglaPlay</h1><p>Play Different. Laugh Unlimited. Original games that run right in your browser.</p><a class="btn" href="game.html?id=goatzilla">▶ Play Goatzilla</a><a class="btn alt" href="games.html">Browse all games</a></div></div>
+<main class="wrap"><section><h2>Play now</h2><div class="grid" id="featured"></div></section>
+<section><h2>Categories</h2><div class="cats" id="cats"></div></section>
+<section><h2>Coming soon</h2><div class="grid" id="soon"></div></section>
+<section><div class="perks"><div class="perk"><b>100% free</b><br>No sign-up, no payment.</div><div class="perk"><b>No install</b><br>Open the link and play.</div><div class="perk"><b>Phone friendly</b><br>Touch controls on every game.</div></div></section></main>
+<script src="site.js"></script></body></html>
